@@ -1,0 +1,151 @@
+.banner>.icons>.logo-icon>svg:hover {
+    animation: spinner 1.3s;
+}
+
+.container>.box {
+    overflow: hidden;
+    
+}
+
+.container>.box>p,
+.container>.box>span,
+.container>.box>span {
+    position: relative;
+    -webkit-animation: left-fade 1.5s;
+            animation: left-fade 1.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+
+.container>.box>.download,
+.container>.box>.project-list {
+    position: relative;
+    -webkit-animation: right-fade 1.5s;
+            animation: right-fade 1.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+
+.container>nav {
+    position: relative;
+    -webkit-animation: right-fade 1.5s;
+            animation: right-fade 1.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+
+.container>nav>ul>li>a>figure:hover svg{
+    animation: scale-up 1s cubic-bezier(0.215, 0.610, 0.355, 1);  
+}
+
+.passion-body>.web-design:hover svg,
+.passion-body>.web-develop:hover svg {
+    transform: scale();
+    animation: scale-up 1.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.portfolio-card:hover {
+    box-shadow: 5px 5px 18px 10px var(--secondary-color);
+    transform: scale(1.1);
+}
+
+.soundwave-card:hover {
+    box-shadow: 5px 5px 18px 10px var(--secondary-color);
+    transform: scale(1.1);
+}
+
+.imac-card:hover {
+    box-shadow: 5px 5px 18px 10px var(--secondary-color);
+    transform: scale(1.1);
+}
+
+.krypto-card:hover {
+    box-shadow: 5px 5px 18px 10px var(--secondary-color);
+    transform: scale(1.1);
+}
+
+.portfolio>.details>img {
+    transition: transform 1.3s;
+    transition-delay: 0.3s;
+}
+
+.portfolio>.details>img:hover {
+    transform: scale(1.2);
+}
+
+li.contact-list>ol>li>a>svg {
+    transition: transform 1.3s;
+    transition-delay: 0.3s;
+}
+
+li.contact-list>ol>li:hover svg {
+    transform:rotate(360deg) scale(1.3);
+}
+
+.left-fade {
+    animation: left-fade 3s;
+}
+
+.rightFade {
+    animation: rightFade 3s;
+}
+
+@-webkit-keyframes left-fade {
+    0% {
+        left: -400px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes left-fade {
+    0% {
+        left: -400px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes right-fade {
+    0% {
+        right: -400px;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes rightFade {
+    0% {
+        right: -600px;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale-up {
+    0% {
+        transform: scale(.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
