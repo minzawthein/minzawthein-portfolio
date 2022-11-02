@@ -1,13 +1,7 @@
 :root {
-    --primary-color: #FDE35A;
-    --title-text-color: #ffffff;
-    --secondary-color: #000000;
-    --text-color: black;
-    --title-color: #ff5757;
     --title-fontsize: 0.9rem;
     --subtitle-fontsize: 1.3rem;
     --subheading-fontsize: 1.4rem;
-    --grid--image: url("../resource/svg/Grid.svg");
     --font-style: 'Lato', sans-serif;;   
 }
 
